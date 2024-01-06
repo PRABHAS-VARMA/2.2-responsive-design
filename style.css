@@ -9,10 +9,7 @@
   max-width: 200px;
 }
 
-.games,
-.crafts {
-  max-width: 300px;
-}
+
 
 .box {
   display: flex;
@@ -23,7 +20,9 @@
   flex-direction: column;
   padding: 5%;
 }
-
+.crafts {
+  max-width: 300px;
+}
 .fit {
   justify-content: space-evenly;
 }
@@ -40,7 +39,9 @@ nav > div {
 nav img {
   height: 30px;
 }
-
+.games {
+  max-width: 300px;
+}
 #itemsOfCart {
   font-weight: bold;
   align-items: center;
