@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.books {
+  max-width: 200px;
+}
+
+.games,
+.crafts {
+  max-width: 300px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+#book-c {
+  flex-direction: column;
+  padding: 5%;
+}
+
+.fit {
+  justify-content: space-evenly;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+}
+
+nav > div {
+  padding: 0% 5%;
+}
+
+nav img {
+  height: 30px;
+}
+
+#itemsOfCart {
+  font-weight: bold;
+  align-items: center;
+}
+
+header {
+  height: 500px;
+  width: 100%;
+  background-image: url("./assets/kw-background.png");
+  background-size: 100% 100%;
+  color: white;
+}
+
+.cont {
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  padding: 3% 2%;
+}
+
+header h1 {
+  font-size: 7vh;
+}
+
+header h5 {
+  font-size: 23px;
+  margin-top: 20px;
+}
+
+#game-c {
+  margin: 4% 0%;
+}
+
+#craft-c {
+  margin: 4% 0%;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #6095ff;
+  color: white;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+.for img {
+  width: 24px;
+  padding-left: 4px;
+}
+
+.for {
+  margin-top: 17px;
+  padding-bottom: 47px;
+}
+
+footer {
+  background-image: url("http://i1.faceprep.in/prograd-junior/footer-bg.png");
+  background-size: 100% 100%;
+  color: white;
+  padding: 0% 5%;
+}
+
+footer img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+#info {
+  flex-direction: column;
+  text-align: right;
+}
+
+h1{
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+h4 {
+  color: grey;
+  font-weight: lighter;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+.for p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+.container {
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    height: 200px;
+    font-size: 15px;
+    text-align: start;
+  }
+
+   h1 {
+    font-size: 4vh;
+  }
+
+   h5 {
+    font-size: 15px;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  .container {
+    justify-content: center;
+  }
+}
